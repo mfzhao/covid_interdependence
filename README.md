@@ -6,8 +6,11 @@ This repository contains the code for "Interdependence and the Cost of Uncoordin
 - output: contains all plots generated.
 - utils: contains various code utilies used across different files.
 
+More details can be found in the Readme files within each folder.
+
+---
 Contributors: David Holtz*, Michael Zhao*, Seth G. Benzell, Cathy Y. Cao, M. Amin Rahimian, Jeremy Yang, Jennifer Allen, Avinash Collis, Alex Moehring, Tara Sowrirajan, Dipayan Ghosh, Yunhao Zhang, Paramveer S. Dhillon, Christos Nicolaides, Dean Eckles, and Sinan
 Aral
-
+---
 ## Inquiries
 Please direct inquires and correspondence to Sinan Aral (sinan [at] mit [dot] edu) or Dean Eckles (eckles [at] mit [dot] edu)
