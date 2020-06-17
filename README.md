@@ -1,10 +1,10 @@
 # Interdependence and the Cost of Uncoordinated Responses to COVID-19
 This repository contains the code for "Interdependence and the Cost of Uncoordinated Responses to COVID-19" (preprint available [here](http://ide.mit.edu/news-blog/news/cost-uncoordinated-responses-covid-19)). Code is divided into 4 subfolders:
 
-- analysis: contains all code pertaining to statistical modeling for the analysis presented in main text and the supplmentary information.
-- data_cleaning: contains all code used to pre-process the raw data for analysis.
-- output: contains all plots generated.
-- utils: contains various code utilies used across different files.
+- **analysis**: contains all code pertaining to statistical modeling for the analysis presented in main text and the supplmentary information.
+- **data_cleaning**: contains all code used to pre-process the raw data for analysis.
+- **output**: contains all plots generated.
+- **utils**: contains various code utilies used across different files.
 
 More details can be found in the Readme files within each folder.
 
