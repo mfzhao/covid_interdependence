@@ -1,0 +1,46 @@
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Fri, May 08, 2020 - 11:24:27 AM
+\begin{table}[!htbp] \centering 
+  \caption{The effect of policy interventions on dyadic movement patterns (adjacent counties)} 
+  \label{tab:dyad_model_adjacent} 
+\footnotesize 
+\begin{tabular}{@{\extracolsep{5pt}}lccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-4} 
+\\[-1.8ex] & asinh(dCBGs/device) & log(dCBGs/device + 1) & dCBGs/device \\ 
+\\[-1.8ex] & (1) & (2) & (3)\\ 
+\hline \\[-1.8ex] 
+ Or. = 0, Dest. = 1 (G/M/R) & $-$3.60 & $-$2.90 & $-$3.84 \\ 
+  & (2.67) & (2.13) & (2.89) \\ 
+  & & & \\ 
+ Or. = 1, Dest. = 0 (G/M/R) & 0.42 & 0.33 & 0.48 \\ 
+  & (1.34) & (1.15) & (1.40) \\ 
+  & & & \\ 
+ Or. = 1, Dest. = 1 (G/M/R) & $-$0.98$^{*}$ & $-$0.91$^{*}$ & $-$0.94$^{*}$ \\ 
+  & (0.50) & (0.47) & (0.51) \\ 
+  & & & \\ 
+ Or. = 0, Dest. = 1 (shelter-in-place) & $-$11.63$^{***}$ & $-$9.91$^{***}$ & $-$11.99$^{***}$ \\ 
+  & (3.95) & (3.31) & (4.10) \\ 
+  & & & \\ 
+ Or. = 1, Dest. = 0 (shelter-in-place) & 5.51$^{**}$ & 4.25$^{**}$ & 5.97$^{**}$ \\ 
+  & (2.74) & (2.13) & (3.01) \\ 
+  & & & \\ 
+ Or. = 1, Dest. = 1 (shelter-in-place) & $-$5.13$^{***}$ & $-$4.97$^{***}$ & $-$5.00$^{***}$ \\ 
+  & (1.20) & (1.08) & (1.23) \\ 
+  & & & \\ 
+\hline \\[-1.8ex] 
+Clustered s.e. & Yes & Yes & Yes \\ 
+Dyad fixed effect & Yes & Yes & Yes \\ 
+Day fixed effect & Yes & Yes & Yes \\ 
+Observations & 878,472 & 878,472 & 878,472 \\ 
+R$^{2}$ & 0.89 & 0.90 & 0.88 \\ 
+Adjusted R$^{2}$ & 0.89 & 0.90 & 0.88 \\ 
+Residual Std. Error (df = 860490) & 1.67 & 1.41 & 1.74 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\multicolumn{4}{l} {\parbox[t]{\textwidth}{ \textit{Notes:} Or. refers to the origin county, Dest. refers to the destination county. 1 indicates that a given policy is in place, whereas 0 indicates it is not. G/M/R refers to closing gyms, movie theaters, and/or restaurants, and shelter-in-place refers to a shelter in place order. dCBGs/device refers to the average number of census block groups in the destination county that devices from the origin county visited on a given day. All coefficients and standard errors are multiplied by 1,000. $^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01}} \\
+\end{tabular} 
+\end{table} 

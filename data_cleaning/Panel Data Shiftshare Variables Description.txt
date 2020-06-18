@@ -1,0 +1,30 @@
+Product Panel Data Readme
+
+The file produces the panel data used for final analysis. Here are some descriptions of variables that would be used in the model
+
+
+Industry share covariates: Each number indicates an industry with two-digit nails code. Originally there are also `21` and `NA` but I remove them because they are very small values and likely to produce rank deficiency. 
+`11`+`22`+`23`+`31`+`32`+`33`+`42`+`44`+`45`+`48`+
+`49`+`51`+`52`+`53`+`54`+`55`+`56`+`61`+`62`+`71`+`72`+`81`+`92`
+
+
+Shiftshare instruments: 
+1) the industry shares of peer counties weighted by sci and n, i.e., alters of industry shares
+`alter11`+`alter22`+`alter23`+`alter31`+`alter32`+`alter33`+
+`alter42`+`alter44`+`alter45`+`alter48`+
+`alter49`+`alter51`+`alter52`+`alter53`+`alter54`+
+`alter55`+`alter56`+`alter61`+`alter62`+`alter71`+`alter72`+`alter81`+`alter92`
+
+2) alters of industry shared interact with stay at home policies
+`shX11_alter`+`shX22_alter`+`shX23_alter`+`shX31_alter`+`shX32_alter`+`shX33_alter`+
+`shX42_alter`+`shX44_alter`+`shX45_alter`+`shX48_alter`+
+`shX49_alter`+`shX51_alter`+`shX52_alter`+`shX53_alter`+`shX54_alter`+
+`shX55_alter`+`shX56_alter`+`shX61_alter`+`shX62_alter`+`shX71_alter`+
+`shX72_alter`+`shX81_alter`+`shX92_alter`
+
+3) alters of industry shared interact with NOT stay at home policies
+`nshX11_alter`+`nshX22_alter`+`nshX23_alter`+`nshX31_alter`+`nshX32_alter`+`nshX33_alter`+
+`nshX42_alter`+`nshX44_alter`+`nshX45_alter`+`nshX48_alter`+
+`nshX49_alter`+`nshX51_alter`+`nshX52_alter`+`nshX53_alter`+`nshX54_alter`+
+`nshX55_alter`+`nshX56_alter`+`nshX61_alter`+`nshX62_alter`+`nshX71_alter`+
+`nshX72_alter`+`nshX81_alter`+`nshX92_alter`

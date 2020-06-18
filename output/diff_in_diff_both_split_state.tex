@@ -1,0 +1,58 @@
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Thu, May 14, 2020 - 06:12:13 PM
+\begin{table}[!htbp] \centering 
+  \caption{The effect of policy interventions on county-level outcomes, including in-state and out-of-state geo- and social-spillovers.} 
+  \label{tab:diff_in_diff_geo_split_state} 
+\footnotesize 
+\begin{tabular}{@{\extracolsep{5pt}}lcccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{4}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-5} 
+\\[-1.8ex] & asinh(NSBTUs) & asinh(NHDF) & log(dCBGVs) & BTVRC \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4)\\ 
+\hline \\[-1.8ex] 
+ Ego shelter-in-place & $-$0.32 & $-$1.77$^{***}$ & $-$2.70$^{**}$ & $-$1.62 \\ 
+  & (0.45) & (0.66) & (1.23) & (1.37) \\ 
+  & & & & \\ 
+ In-state geo-alter shelter-in-place & 1.38$^{**}$ & $-$0.20 & $-$2.76$^{**}$ & 1.74 \\ 
+  & (0.62) & (0.78) & (1.23) & (1.31) \\ 
+  & & & & \\ 
+ Out-of-state geo-alter shelter-in-place & 3.43$^{***}$ & 0.61 & 0.82 & 8.15$^{***}$ \\ 
+  & (0.66) & (1.03) & (1.61) & (1.93) \\ 
+  & & & & \\ 
+ In-state social-alter shelter-in-place & $-$3.25$^{***}$ & $-$1.44 & $-$1.26 & $-$7.89$^{***}$ \\ 
+  & (0.97) & (1.37) & (2.21) & (2.32) \\ 
+  & & & & \\ 
+ Out-of-state social-alter shelter-in-place & $-$13.26$^{***}$ & $-$10.14$^{***}$ & $-$15.09$^{***}$ & $-$33.19$^{***}$ \\ 
+  & (1.00) & (1.32) & (2.06) & (2.37) \\ 
+  & & & & \\ 
+ Ego close gym/movies/restaurants & 0.61$^{*}$ & $-$0.17 & 0.10 & 0.83 \\ 
+  & (0.32) & (0.50) & (0.80) & (1.18) \\ 
+  & & & & \\ 
+ In-state geo-alter close gyms/movies/restaurants & 1.63$^{***}$ & 0.67$^{*}$ & $-$0.92 & 2.43$^{***}$ \\ 
+  & (0.29) & (0.41) & (0.71) & (0.69) \\ 
+  & & & & \\ 
+ Out-of-state geo-alter close gyms/movies/restaurants & 1.74$^{***}$ & $-$1.70$^{***}$ & $-$2.37$^{**}$ & 3.55$^{***}$ \\ 
+  & (0.40) & (0.52) & (0.99) & (1.17) \\ 
+  & & & & \\ 
+ In-state social-alter close gyms/movies/restaurants & $-$2.29$^{***}$ & $-$1.19 & $-$0.53 & $-$5.09$^{***}$ \\ 
+  & (0.51) & (0.82) & (1.15) & (1.47) \\ 
+  & & & & \\ 
+ Out-of-state social-alter close gyms/movies/restaurants & $-$2.26$^{***}$ & 1.19$^{*}$ & $-$0.01 & $-$9.96$^{***}$ \\ 
+  & (0.50) & (0.70) & (1.11) & (1.32) \\ 
+  & & & & \\ 
+\hline \\[-1.8ex] 
+Conley s.e. & Yes & Yes & Yes & Yes \\ 
+County fixed effect & Yes & Yes & Yes & Yes \\ 
+Day fixed effect & Yes & Yes & Yes & Yes \\ 
+Observations & 122,598 & 122,598 & 122,598 & 122,598 \\ 
+R$^{2}$ & 0.46 & 0.44 & 0.41 & 0.41 \\ 
+Adjusted R$^{2}$ & 0.45 & 0.43 & 0.39 & 0.40 \\ 
+Residual Std. Error (df = 120038) & 6.16 & 8.40 & 14.69 & 15.46 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\multicolumn{5}{l} {\parbox[t]{\textwidth}{ \textit{Notes:} SBTU refers to the fraction of Facebook users in a given county who visit only one Bing tile on a given day. HDF refers to the fraction of devices completely at home, as measured by Safegraph. dCBGVs refers to the mean number of census block groups devices from a given county visit, as measured by Safegraph. BTVRC refers to the relative change in the number of Bing tiles users visit, as measured by Facebook. All values multiplied by 100. $^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01}} \\
+\end{tabular} 
+\end{table} 

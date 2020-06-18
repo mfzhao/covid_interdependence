@@ -1,0 +1,40 @@
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Thu, May 14, 2020 - 06:12:08 PM
+\begin{table}[!htbp] \centering 
+  \caption{The effect of policy interventions on county-level outcomes, including geo-spillovers.} 
+  \label{tab:diff_in_diff_with_sp_geo} 
+\footnotesize 
+\begin{tabular}{@{\extracolsep{5pt}}lcccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{4}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-5} 
+\\[-1.8ex] & asinh(NSBTUs) & asinh(NHDF) & log(dCBGVs) & BTVRC \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4)\\ 
+\hline \\[-1.8ex] 
+ Ego shelter-in-place & $-$2.08$^{***}$ & $-$2.01$^{***}$ & $-$4.08$^{***}$ & $-$5.60$^{***}$ \\ 
+  & (0.27) & (0.38) & (0.55) & (0.66) \\ 
+  & & & & \\ 
+ Geo-alter shelter-in-place & $-$0.50 & $-$2.76$^{***}$ & $-$4.79$^{***}$ & $-$4.09$^{***}$ \\ 
+  & (0.34) & (0.40) & (0.70) & (0.79) \\ 
+  & & & & \\ 
+ Ego close gyms/movies/restaurants & $-$0.77$^{***}$ & $-$0.24 & $-$0.76$^{**}$ & $-$1.58$^{***}$ \\ 
+  & (0.20) & (0.26) & (0.36) & (0.51) \\ 
+  & & & & \\ 
+ Geo-alter close gyms/movies/restaurants & 1.33$^{***}$ & $-$0.70$^{**}$ & $-$0.78 & $-$0.20 \\ 
+  & (0.26) & (0.34) & (0.62) & (0.74) \\ 
+  & & & & \\ 
+\hline \\[-1.8ex] 
+Conley s.e. & Yes & Yes & Yes & Yes \\ 
+County fixed effect & Yes & Yes & Yes & Yes \\ 
+Day fixed effect & Yes & Yes & Yes & Yes \\ 
+Observations & 122,598 & 122,598 & 122,598 & 122,598 \\ 
+R$^{2}$ & 0.43 & 0.42 & 0.40 & 0.38 \\ 
+Adjusted R$^{2}$ & 0.42 & 0.41 & 0.39 & 0.37 \\ 
+Residual Std. Error (df = 120044) & 6.33 & 8.51 & 14.79 & 15.76 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\multicolumn{5}{l} {\parbox[t]{\textwidth}{ \textit{Notes:} NSBTU refers to the fraction of Facebook users in a given county who visit multiple Bing tiles on a given day. NHDF refers to the fraction of devices that are not completely at home, as measured by Safegraph. dCBGVs refers to the mean number of census block groups devices from a given county visit, as measured by Safegraph. BTVRC refers to the relative change in the number of Bing tiles users visit, as measured by Facebook. All values multiplied by 100. $^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01}} \\
+\end{tabular} 
+\end{table} 

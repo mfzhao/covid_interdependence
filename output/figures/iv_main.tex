@@ -1,0 +1,58 @@
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Thu, May 07, 2020 - 10:34:35 PM
+\begin{table}[!htbp] \centering 
+  \caption{Peer effects} 
+  \label{tab:iv} 
+\footnotesize 
+\begin{tabular}{@{\extracolsep{5pt}}lcccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{4}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-5} 
+\\[-1.8ex] & BTVRC & asinh(NSBTUs) & asinh(NHDF) & log(dCBGVs) \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4)\\ 
+\hline \\[-1.8ex] 
+ Close gyms, movie theaters, restaurants & $-$0.01$^{**}$ & $-$0.003 & $-$0.003 & $-$0.01 \\ 
+  & (0.005) & (0.002) & (0.002) & (0.01) \\ 
+  & & & & \\ 
+ Close gyms, movie theaters, restaurants (social alters) & 0.004 & $-$0.001 & 0.01 & 0.002 \\ 
+  & (0.01) & (0.01) & (0.01) & (0.02) \\ 
+  & & & & \\ 
+ Close gyms, movie theaters, restaurants (geo alters) & 0.01 & 0.003 & $-$0.003 & 0.01 \\ 
+  & (0.01) & (0.004) & (0.005) & (0.01) \\ 
+  & & & & \\ 
+ Shelter-in-place & $-$0.03$^{***}$ & $-$0.01$^{***}$ & $-$0.02$^{***}$ & $-$0.03$^{***}$ \\ 
+  & (0.01) & (0.003) & (0.004) & (0.01) \\ 
+  & & & & \\ 
+ Shelter-in-place (social alters) & 0.05$^{**}$ & 0.02$^{**}$ & 0.04$^{***}$ & 0.06$^{**}$ \\ 
+  & (0.02) & (0.01) & (0.01) & (0.03) \\ 
+  & & & & \\ 
+ Shelter-in-place (geo alters) & $-$0.004 & $-$0.003 & $-$0.02$^{**}$ & $-$0.02 \\ 
+  & (0.01) & (0.01) & (0.01) & (0.02) \\ 
+  & & & & \\ 
+ Social alters' BTVRC & 1.60$^{***}$ &  &  &  \\ 
+  & (0.04) &  &  &  \\ 
+  & & & & \\ 
+ Social alters' asinh(NSBTUs) &  & 1.60$^{***}$ &  &  \\ 
+  &  & (0.06) &  &  \\ 
+  & & & & \\ 
+ Social alters' asinh(NHDF) &  &  & 1.60$^{***}$ &  \\ 
+  &  &  & (0.06) &  \\ 
+  & & & & \\ 
+ Social alters' log(dCBGVs) &  &  &  & 1.90$^{***}$ \\ 
+  &  &  &  & (0.07) \\ 
+  & & & & \\ 
+\hline \\[-1.8ex] 
+Conley s.e. & Yes & Yes & Yes & Yes \\ 
+County fixed effect & Yes & Yes & Yes & Yes \\ 
+Day fixed effect & Yes & Yes & Yes & Yes \\ 
+Observations & 122,598 & 122,598 & 122,598 & 122,598 \\ 
+R$^{2}$ & 0.82 & 0.88 & 0.82 & 0.82 \\ 
+Adjusted R$^{2}$ & 0.82 & 0.87 & 0.81 & 0.81 \\ 
+Residual Std. Error (df = 120016) & 8.40 & 3.00 & 4.80 & 8.20 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\multicolumn{5}{l} {\parbox[t]{\textwidth}{ \textit{Notes:} NSBTU refers to the fraction of FB users in a given county who visit multiple Bing tiles on a given day. NHDF refers to the fraction of devices that are not completely at home, as measured by Safegraph. dCBGVs refers to the mean number of census block groups devices from a given county visit, as measured by Safegraph. BTVRC refers to the relative change in the number of Bing tiles users visit, as measured by FB. $^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01}} \\
+\end{tabular} 
+\end{table} 

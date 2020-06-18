@@ -1,0 +1,58 @@
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Thu, May 14, 2020 - 06:12:10 PM
+\begin{table}[!htbp] \centering 
+  \caption{The effect of policy interventions on county-level outcomes, including geo- and social-spillovers and ego-alter policy interactions.} 
+  \label{tab:diff_in_diff_with_sp_int} 
+\footnotesize 
+\begin{tabular}{@{\extracolsep{5pt}}lcccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{4}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-5} 
+\\[-1.8ex] & asinh(NSBTUs) & asinh(NHDF) & log(dCBGVs) & BTVRC \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4)\\ 
+\hline \\[-1.8ex] 
+ Ego close gym/movies/restaurants & $-$0.36 & $-$0.21 & $-$0.53 & $-$0.12 \\ 
+  & (0.32) & (0.35) & (0.63) & (0.66) \\ 
+  & & & & \\ 
+ Social-alter close gyms/movies/restaurants & $-$2.16$^{***}$ & $-$0.38 & $-$1.55 & $-$7.21$^{***}$ \\ 
+  & (0.75) & (0.91) & (2.01) & (1.52) \\ 
+  & & & & \\ 
+ Geo-alter close gyms/movies/restaurants & 1.93$^{***}$ & $-$0.54 & $-$0.60 & 2.26$^{**}$ \\ 
+  & (0.51) & (0.64) & (1.34) & (1.08) \\ 
+  & & & & \\ 
+ Ego shelter-in-place & $-$0.68 & $-$1.02 & $-$2.64$^{**}$ & $-$1.63 \\ 
+  & (0.47) & (0.64) & (1.25) & (1.07) \\ 
+  & & & & \\ 
+ Social-alter shelter-in-place & $-$7.02$^{***}$ & $-$4.73$^{***}$ & $-$7.47$^{**}$ & $-$19.63$^{***}$ \\ 
+  & (1.35) & (1.79) & (3.50) & (3.03) \\ 
+  & & & & \\ 
+ Geo-alter shelter-in-place & 1.95$^{***}$ & $-$1.22 & $-$2.37 & 3.38$^{**}$ \\ 
+  & (0.66) & (0.91) & (1.88) & (1.51) \\ 
+  & & & & \\ 
+ Ego $\times$ Social-alter close G/M/R & $-$2.69$^{***}$ & 0.44 & $-$5.90$^{**}$ & $-$2.30 \\ 
+  & (0.94) & (1.37) & (2.31) & (2.21) \\ 
+  & & & & \\ 
+ Ego $\times$ Geo-alter close G/M/R & 2.00$^{***}$ & $-$1.13 & 4.68$^{**}$ & 1.14 \\ 
+  & (0.73) & (1.06) & (2.06) & (1.72) \\ 
+  & & & & \\ 
+ Ego $\times$ Social-alter shelter-in-place & 10.82$^{***}$ & 10.60$^{***}$ & 17.34$^{***}$ & 14.56$^{***}$ \\ 
+  & (1.79) & (2.35) & (3.46) & (3.80) \\ 
+  & & & & \\ 
+ Ego $\times$ Geo-alter shelter-in-place & $-$5.41$^{***}$ & $-$3.57$^{**}$ & $-$9.34$^{***}$ & $-$6.47$^{**}$ \\ 
+  & (1.63) & (1.71) & (2.73) & (3.04) \\ 
+  & & & & \\ 
+\hline \\[-1.8ex] 
+Conley s.e. & Yes & Yes & Yes & Yes \\ 
+County fixed effect & Yes & Yes & Yes & Yes \\ 
+Day fixed effect & Yes & Yes & Yes & Yes \\ 
+Observations & 122,598 & 122,598 & 122,598 & 122,598 \\ 
+R$^{2}$ & 0.44 & 0.43 & 0.40 & 0.40 \\ 
+Adjusted R$^{2}$ & 0.43 & 0.42 & 0.39 & 0.38 \\ 
+Residual Std. Error (df = 120038) & 6.26 & 8.45 & 14.74 & 15.62 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\multicolumn{5}{l} {\parbox[t]{\textwidth}{ \textit{Notes:} SBTU refers to the fraction of Facebook users in a given county who visit only one Bing tile on a given day. HDF refers to the fraction of devices completely at home, as measured by Safegraph. dCBGVs refers to the mean number of census block groups devices from a given county visit, as measured by Safegraph. BTVRC refers to the relative change in the number of Bing tiles users visit, as measured by Facebook. All values multiplied by 100. $^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01}} \\
+\end{tabular} 
+\end{table} 
